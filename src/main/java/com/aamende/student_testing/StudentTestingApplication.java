@@ -8,7 +8,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 @SpringBootApplication
 @EnableConfigurationProperties(AppProps.class)
 public class StudentTestingApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(StudentTestingApplication.class, args);
     }
